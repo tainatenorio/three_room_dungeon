@@ -1,6 +1,6 @@
 # Three Room Dungeon
 
-Jogo FPS em C++ com OpenGL/GLUT, com mapa em texto, inimigos com IA simples, boss e efeitos visuais.
+Jogo FPS em C++ com OpenGL/GLUT, inimigos para enfrentar, três fases.
 
 ## Requisitos
 - `g++`
@@ -69,14 +69,5 @@ Cada caractere representa um elemento.
 - `assets`: texturas e áudio
 - `shaders`: GLSL
 
-## Limpeza de assets
-Foi feita limpeza de arquivos não referenciados pelo código atual.
 
-Resumo:
-- Antes: `88` arquivos em `assets/`
-- Depois: `51` arquivos em `assets/`
-- Removidos: `37` arquivos não utilizados
-
-Critério usado:
-- referências explícitas em `src/`, `include/`, `main.cpp`, `Makefile`, `maps/` e scripts.
 
