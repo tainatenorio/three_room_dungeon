@@ -2,6 +2,9 @@
 
 Jogo FPS em C++ com OpenGL/GLUT, inimigos para enfrentar, três fases.
 
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/fc5ba30e-9ccc-4f39-9d6a-bd1c414ecfc5" />
+
+
 ## Requisitos
 - `g++`
 - `make`
@@ -69,5 +72,5 @@ Cada caractere representa um elemento.
 - `assets`: texturas e áudio
 - `shaders`: GLSL
 
-
-
+## Gameplay
+https://drive.google.com/drive/folders/19Y856qOWCtaGGsLoTb_sOsaIHNkFiL4y?usp=sharing
